@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyVersion>2.0.165.23341</AssemblyVersion>
+    <FileVersion>2.0.165.23341</FileVersion>
+	<EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+	<AssemblyName>SE_REQ</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentResults" Version="3.15.2" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+    <PackageReference Include="Spectre.Console" Version="0.48.0" />
+    <PackageReference Include="Spectre.Console.Cli" Version="0.48.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SpaceEngineers.Application\SpaceEngineers.Application.csproj" />
+    <ProjectReference Include="..\SpaceEngineers.Data\SpaceEngineers.Data.csproj" />
+    <ProjectReference Include="..\SpaceEngineers.Parser\SpaceEngineers.Parser.csproj" />
+    <ProjectReference Include="..\SpaceEngineers.Persistence\SpaceEngineers.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>

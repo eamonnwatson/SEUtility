@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+	<AssemblyVersion>2.0.24.23341</AssemblyVersion>
+	<FileVersion>2.0.24.23341</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SpaceEngineers.Application\SpaceEngineers.Application.csproj" />
+    <ProjectReference Include="..\SpaceEngineers.Data\SpaceEngineers.Data.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SpaceEngineersRequirements": {
+      "commandName": "Project",
+      "commandLineArgs": "-h"
+    }
+  }
+}
